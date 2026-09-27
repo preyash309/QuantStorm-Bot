@@ -1,0 +1,54 @@
+{
+  "phase": "3B",
+  "input": "research\\opponent\\phase3_policy_dataset.json",
+  "results": [
+    {
+      "total": 54236,
+      "correct": 44885,
+      "accuracy": 0.8275868426875138,
+      "log_loss": 1.1546312573910786,
+      "unseen": 3725,
+      "unseen_rate": 0.06868131868131869,
+      "method_accuracy": {
+        "bid": 0.8228333333333333,
+        "quote": 0.96,
+        "respond": 0.7847204185373455,
+        "use_transform": 1.0
+      },
+      "representation": "Coarse",
+      "train_states": 12154
+    },
+    {
+      "total": 54236,
+      "correct": 40409,
+      "accuracy": 0.7450586326425253,
+      "log_loss": 1.2884678359789057,
+      "unseen": 10750,
+      "unseen_rate": 0.19820783243602036,
+      "method_accuracy": {
+        "bid": 0.7720555555555556,
+        "quote": 0.8758888888888889,
+        "respond": 0.6807539608919891,
+        "use_transform": 0.9894736842105263
+      },
+      "representation": "Exact",
+      "train_states": 23459
+    },
+    {
+      "total": 54236,
+      "correct": 40568,
+      "accuracy": 0.7479902647687883,
+      "log_loss": 1.2772947889171804,
+      "unseen": 10591,
+      "unseen_rate": 0.19527620030975737,
+      "method_accuracy": {
+        "bid": 0.7720555555555556,
+        "quote": 0.8758888888888889,
+        "respond": 0.6866535564543059,
+        "use_transform": 0.9894736842105263
+      },
+      "representation": "Engineered",
+      "train_states": 23208
+    }
+  ]
+}

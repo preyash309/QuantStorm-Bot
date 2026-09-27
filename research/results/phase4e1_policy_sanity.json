@@ -1,0 +1,62 @@
+{
+  "phase": "4E.1",
+  "description": "Consistency check between exact-action opponent model and Phase 4C three-class policy",
+  "phase4c_benchmark": {
+    "accuracy": 0.819042,
+    "log_loss": 0.549016,
+    "brier": 0.296497
+  },
+  "result": {
+    "total": 26951,
+    "accuracy": 0.7656116656153761,
+    "log_loss": 0.8835759784336064,
+    "brier": 0.4240473967075652,
+    "unseen": 3964,
+    "unseen_rate": 0.1470817409372565,
+    "mean_confidence": 0.9603967163900894,
+    "exact_counter_rows": 20619,
+    "exact_counter_top1": 14592,
+    "exact_counter_accuracy": 0.7076967845191329,
+    "actual_counts": {
+      "COUNTER": 20619,
+      "ACCEPT_SELL": 4342,
+      "ACCEPT_BUY": 1990
+    },
+    "predicted_counts": {
+      "COUNTER": 26936,
+      "ACCEPT_SELL": 15
+    },
+    "buckets": {
+      "<0.50": {
+        "n": 0,
+        "correct": 0,
+        "confidence": 0.0
+      },
+      "0.50-0.60": {
+        "n": 15,
+        "correct": 15,
+        "confidence": 7.569444444444434
+      },
+      "0.60-0.70": {
+        "n": 1,
+        "correct": 0,
+        "confidence": 0.6435045317220532
+      },
+      "0.70-0.80": {
+        "n": 25,
+        "correct": 2,
+        "confidence": 18.737016898746415
+      },
+      "0.80-0.90": {
+        "n": 4181,
+        "correct": 2409,
+        "confidence": 3440.038238717405
+      },
+      ">=0.90": {
+        "n": 22729,
+        "correct": 18208,
+        "confidence": 22416.663698838194
+      }
+    }
+  }
+}

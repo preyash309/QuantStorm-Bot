@@ -1,0 +1,881 @@
+{
+  "phase": "4B",
+  "description": "Public-state opponent-conditioned one-step negotiation EV",
+  "n_examples": 10,
+  "examples": [
+    {
+      "seed": 1130100,
+      "round": 1,
+      "turn": 3,
+      "quote": [
+        -5,
+        3
+      ],
+      "observed_action": [
+        "COUNTER",
+        -4,
+        3
+      ],
+      "best_action": "COUNTER [-1,3]",
+      "best_ev": 0.9562967382105249,
+      "exact_value": -2.0,
+      "foresight_sum": 0,
+      "foresight_n": 0,
+      "ranking": [
+        {
+          "action": "COUNTER [-1,3]",
+          "ev": 0.9562967382105249,
+          "p_accept_buy": 0.05284626163686058,
+          "p_accept_sell": 0.12754415416845874,
+          "p_counter": 0.8196095841946807
+        },
+        {
+          "action": "COUNTER [-5,2]",
+          "ev": 0.5833333333333333,
+          "p_accept_buy": 0.08333333333333333,
+          "p_accept_sell": 0.4166666666666667,
+          "p_counter": 0.5
+        },
+        {
+          "action": "COUNTER [-3,3]",
+          "ev": 0.3917754623527616,
+          "p_accept_buy": 0.05284626163686058,
+          "p_accept_sell": 0.12754415416845874,
+          "p_counter": 0.8196095841946807
+        },
+        {
+          "action": "COUNTER [-2,3]",
+          "ev": 0.2642313081843029,
+          "p_accept_buy": 0.05284626163686058,
+          "p_accept_sell": 0.12754415416845874,
+          "p_counter": 0.8196095841946807
+        },
+        {
+          "action": "COUNTER [-2,2]",
+          "ev": 0.2113850465474423,
+          "p_accept_buy": 0.05284626163686058,
+          "p_accept_sell": 0.12754415416845874,
+          "p_counter": 0.8196095841946807
+        },
+        {
+          "action": "COUNTER [-4,3]",
+          "ev": 0.171875,
+          "p_accept_buy": 0.015625,
+          "p_accept_sell": 0.359375,
+          "p_counter": 0.625
+        },
+        {
+          "action": "COUNTER [-4,2]",
+          "ev": -0.35313622931032085,
+          "p_accept_buy": 0.05284626163686058,
+          "p_accept_sell": 0.12754415416845874,
+          "p_counter": 0.8196095841946807
+        },
+        {
+          "action": "COUNTER [-3,2]",
+          "ev": -0.4806803834787796,
+          "p_accept_buy": 0.05284626163686058,
+          "p_accept_sell": 0.12754415416845874,
+          "p_counter": 0.8196095841946807
+        },
+        {
+          "action": "COUNTER [-3,1]",
+          "ev": -0.5335266451156402,
+          "p_accept_buy": 0.05284626163686058,
+          "p_accept_sell": 0.12754415416845874,
+          "p_counter": 0.8196095841946807
+        },
+        {
+          "action": "COUNTER [-5,1]",
+          "ev": -1.0980479209734035,
+          "p_accept_buy": 0.05284626163686058,
+          "p_accept_sell": 0.12754415416845874,
+          "p_counter": 0.8196095841946807
+        },
+        {
+          "action": "COUNTER [-4,1]",
+          "ev": -1.225592075141862,
+          "p_accept_buy": 0.05284626163686058,
+          "p_accept_sell": 0.12754415416845874,
+          "p_counter": 0.8196095841946807
+        },
+        {
+          "action": "COUNTER [-4,0]",
+          "ev": -1.2784383367787227,
+          "p_accept_buy": 0.05284626163686058,
+          "p_accept_sell": 0.12754415416845874,
+          "p_counter": 0.8196095841946807
+        },
+        {
+          "action": "COUNTER [-5,0]",
+          "ev": -1.9705037668049443,
+          "p_accept_buy": 0.05284626163686058,
+          "p_accept_sell": 0.12754415416845874,
+          "p_counter": 0.8196095841946807
+        },
+        {
+          "action": "COUNTER [-5,-1]",
+          "ev": -2.023350028441805,
+          "p_accept_buy": 0.05284626163686058,
+          "p_accept_sell": 0.12754415416845874,
+          "p_counter": 0.8196095841946807
+        },
+        {
+          "action": "ACCEPT_SELL",
+          "ev": -3.0,
+          "p_accept_buy": 0.0,
+          "p_accept_sell": 1.0,
+          "p_counter": 0.0
+        },
+        {
+          "action": "ACCEPT_BUY",
+          "ev": -5.0,
+          "p_accept_buy": 1.0,
+          "p_accept_sell": 0.0,
+          "p_counter": 0.0
+        }
+      ]
+    },
+    {
+      "seed": 1130100,
+      "round": 2,
+      "turn": 2,
+      "quote": [
+        -2,
+        2
+      ],
+      "observed_action": [
+        "COUNTER",
+        -1,
+        2
+      ],
+      "best_action": "ACCEPT_BUY",
+      "best_ev": -2.0,
+      "exact_value": 0.0,
+      "foresight_sum": 0,
+      "foresight_n": 0,
+      "ranking": [
+        {
+          "action": "ACCEPT_BUY",
+          "ev": -2.0,
+          "p_accept_buy": 1.0,
+          "p_accept_sell": 0.0,
+          "p_counter": 0.0
+        },
+        {
+          "action": "ACCEPT_SELL",
+          "ev": -2.0,
+          "p_accept_buy": 0.0,
+          "p_accept_sell": 1.0,
+          "p_counter": 0.0
+        }
+      ]
+    },
+    {
+      "seed": 1130100,
+      "round": 2,
+      "turn": 4,
+      "quote": [
+        0,
+        2
+      ],
+      "observed_action": [
+        "COUNTER",
+        0,
+        1
+      ],
+      "best_action": "ACCEPT_SELL",
+      "best_ev": 0.0,
+      "exact_value": 0.0,
+      "foresight_sum": 0,
+      "foresight_n": 0,
+      "ranking": [
+        {
+          "action": "ACCEPT_SELL",
+          "ev": 0.0,
+          "p_accept_buy": 0.0,
+          "p_accept_sell": 1.0,
+          "p_counter": 0.0
+        },
+        {
+          "action": "ACCEPT_BUY",
+          "ev": -2.0,
+          "p_accept_buy": 1.0,
+          "p_accept_sell": 0.0,
+          "p_counter": 0.0
+        }
+      ]
+    },
+    {
+      "seed": 1130100,
+      "round": 3,
+      "turn": 3,
+      "quote": [
+        -5,
+        2
+      ],
+      "observed_action": [
+        "COUNTER",
+        -4,
+        2
+      ],
+      "best_action": "COUNTER [-4,2]",
+      "best_ev": 0.33333333333333337,
+      "exact_value": -2.0,
+      "foresight_sum": 0,
+      "foresight_n": 0,
+      "ranking": [
+        {
+          "action": "COUNTER [-4,2]",
+          "ev": 0.33333333333333337,
+          "p_accept_buy": 0.16666666666666666,
+          "p_accept_sell": 0.16666666666666666,
+          "p_counter": 0.6666666666666666
+        },
+        {
+          "action": "COUNTER [-2,2]",
+          "ev": 0.2113850465474423,
+          "p_accept_buy": 0.05284626163686058,
+          "p_accept_sell": 0.12754415416845874,
+          "p_counter": 0.8196095841946807
+        },
+        {
+          "action": "COUNTER [-1,2]",
+          "ev": 0.08384089237898357,
+          "p_accept_buy": 0.05284626163686058,
+          "p_accept_sell": 0.12754415416845874,
+          "p_counter": 0.8196095841946807
+        },
+        {
+          "action": "COUNTER [-3,2]",
+          "ev": -0.4806803834787796,
+          "p_accept_buy": 0.05284626163686058,
+          "p_accept_sell": 0.12754415416845874,
+          "p_counter": 0.8196095841946807
+        },
+        {
+          "action": "COUNTER [-3,1]",
+          "ev": -0.5335266451156402,
+          "p_accept_buy": 0.05284626163686058,
+          "p_accept_sell": 0.12754415416845874,
+          "p_counter": 0.8196095841946807
+        },
+        {
+          "action": "COUNTER [-2,1]",
+          "ev": -0.661070799284099,
+          "p_accept_buy": 0.05284626163686058,
+          "p_accept_sell": 0.12754415416845874,
+          "p_counter": 0.8196095841946807
+        },
+        {
+          "action": "COUNTER [-5,1]",
+          "ev": -1.0980479209734035,
+          "p_accept_buy": 0.05284626163686058,
+          "p_accept_sell": 0.12754415416845874,
+          "p_counter": 0.8196095841946807
+        },
+        {
+          "action": "COUNTER [-4,1]",
+          "ev": -1.225592075141862,
+          "p_accept_buy": 0.05284626163686058,
+          "p_accept_sell": 0.12754415416845874,
+          "p_counter": 0.8196095841946807
+        },
+        {
+          "action": "COUNTER [-4,0]",
+          "ev": -1.2784383367787227,
+          "p_accept_buy": 0.05284626163686058,
+          "p_accept_sell": 0.12754415416845874,
+          "p_counter": 0.8196095841946807
+        },
+        {
+          "action": "COUNTER [-3,0]",
+          "ev": -1.4059824909471814,
+          "p_accept_buy": 0.05284626163686058,
+          "p_accept_sell": 0.12754415416845874,
+          "p_counter": 0.8196095841946807
+        },
+        {
+          "action": "COUNTER [-5,0]",
+          "ev": -1.9705037668049443,
+          "p_accept_buy": 0.05284626163686058,
+          "p_accept_sell": 0.12754415416845874,
+          "p_counter": 0.8196095841946807
+        },
+        {
+          "action": "COUNTER [-5,-1]",
+          "ev": -2.023350028441805,
+          "p_accept_buy": 0.05284626163686058,
+          "p_accept_sell": 0.12754415416845874,
+          "p_counter": 0.8196095841946807
+        },
+        {
+          "action": "COUNTER [-4,-1]",
+          "ev": -2.150894182610264,
+          "p_accept_buy": 0.05284626163686058,
+          "p_accept_sell": 0.12754415416845874,
+          "p_counter": 0.8196095841946807
+        },
+        {
+          "action": "COUNTER [-5,-2]",
+          "ev": -2.8958058742733463,
+          "p_accept_buy": 0.05284626163686058,
+          "p_accept_sell": 0.12754415416845874,
+          "p_counter": 0.8196095841946807
+        },
+        {
+          "action": "ACCEPT_SELL",
+          "ev": -3.0,
+          "p_accept_buy": 0.0,
+          "p_accept_sell": 1.0,
+          "p_counter": 0.0
+        },
+        {
+          "action": "ACCEPT_BUY",
+          "ev": -4.0,
+          "p_accept_buy": 1.0,
+          "p_accept_sell": 0.0,
+          "p_counter": 0.0
+        }
+      ]
+    },
+    {
+      "seed": 1130100,
+      "round": 3,
+      "turn": 5,
+      "quote": [
+        -3,
+        2
+      ],
+      "observed_action": [
+        "COUNTER",
+        -2,
+        2
+      ],
+      "best_action": "COUNTER [-2,2]",
+      "best_ev": 0.6666666666666666,
+      "exact_value": -2.0,
+      "foresight_sum": 0,
+      "foresight_n": 0,
+      "ranking": [
+        {
+          "action": "COUNTER [-2,2]",
+          "ev": 0.6666666666666666,
+          "p_accept_buy": 0.16666666666666666,
+          "p_accept_sell": 0.5,
+          "p_counter": 0.3333333333333333
+        },
+        {
+          "action": "COUNTER [-1,2]",
+          "ev": 0.08384089237898357,
+          "p_accept_buy": 0.05284626163686058,
+          "p_accept_sell": 0.12754415416845874,
+          "p_counter": 0.8196095841946807
+        },
+        {
+          "action": "COUNTER [-3,1]",
+          "ev": -0.5335266451156402,
+          "p_accept_buy": 0.05284626163686058,
+          "p_accept_sell": 0.12754415416845874,
+          "p_counter": 0.8196095841946807
+        },
+        {
+          "action": "COUNTER [-2,1]",
+          "ev": -0.661070799284099,
+          "p_accept_buy": 0.05284626163686058,
+          "p_accept_sell": 0.12754415416845874,
+          "p_counter": 0.8196095841946807
+        },
+        {
+          "action": "ACCEPT_SELL",
+          "ev": -1.0,
+          "p_accept_buy": 0.0,
+          "p_accept_sell": 1.0,
+          "p_counter": 0.0
+        },
+        {
+          "action": "COUNTER [-3,0]",
+          "ev": -1.4059824909471814,
+          "p_accept_buy": 0.05284626163686058,
+          "p_accept_sell": 0.12754415416845874,
+          "p_counter": 0.8196095841946807
+        },
+        {
+          "action": "ACCEPT_BUY",
+          "ev": -4.0,
+          "p_accept_buy": 1.0,
+          "p_accept_sell": 0.0,
+          "p_counter": 0.0
+        }
+      ]
+    },
+    {
+      "seed": 1130100,
+      "round": 4,
+      "turn": 2,
+      "quote": [
+        -1,
+        2
+      ],
+      "observed_action": "ACCEPT_SELL",
+      "best_action": "ACCEPT_SELL",
+      "best_ev": 1.0,
+      "exact_value": -2.0,
+      "foresight_sum": 0,
+      "foresight_n": 0,
+      "ranking": [
+        {
+          "action": "ACCEPT_SELL",
+          "ev": 1.0,
+          "p_accept_buy": 0.0,
+          "p_accept_sell": 1.0,
+          "p_counter": 0.0
+        },
+        {
+          "action": "ACCEPT_BUY",
+          "ev": -4.0,
+          "p_accept_buy": 1.0,
+          "p_accept_sell": 0.0,
+          "p_counter": 0.0
+        }
+      ]
+    },
+    {
+      "seed": 1130100,
+      "round": 5,
+      "turn": 3,
+      "quote": [
+        -8,
+        -2
+      ],
+      "observed_action": [
+        "COUNTER",
+        -7,
+        -2
+      ],
+      "best_action": "COUNTER [-4,-2]",
+      "best_ev": 0.7759063224052055,
+      "exact_value": -6.0,
+      "foresight_sum": 0,
+      "foresight_n": 0,
+      "ranking": [
+        {
+          "action": "COUNTER [-4,-2]",
+          "ev": 0.7759063224052055,
+          "p_accept_buy": 0.05284626163686058,
+          "p_accept_sell": 0.12754415416845874,
+          "p_counter": 0.8196095841946807
+        },
+        {
+          "action": "COUNTER [-6,-2]",
+          "ev": 0.2113850465474423,
+          "p_accept_buy": 0.05284626163686058,
+          "p_accept_sell": 0.12754415416845874,
+          "p_counter": 0.8196095841946807
+        },
+        {
+          "action": "COUNTER [-5,-2]",
+          "ev": 0.08384089237898357,
+          "p_accept_buy": 0.05284626163686058,
+          "p_accept_sell": 0.12754415416845874,
+          "p_counter": 0.8196095841946807
+        },
+        {
+          "action": "COUNTER [-5,-3]",
+          "ev": 0.030994630742122997,
+          "p_accept_buy": 0.05284626163686058,
+          "p_accept_sell": 0.12754415416845874,
+          "p_counter": 0.8196095841946807
+        },
+        {
+          "action": "COUNTER [-7,-2]",
+          "ev": -0.15384615384615374,
+          "p_accept_buy": 0.07692307692307693,
+          "p_accept_sell": 0.23076923076923078,
+          "p_counter": 0.6923076923076923
+        },
+        {
+          "action": "COUNTER [-7,-3]",
+          "ev": -0.5335266451156402,
+          "p_accept_buy": 0.05284626163686058,
+          "p_accept_sell": 0.12754415416845874,
+          "p_counter": 0.8196095841946807
+        },
+        {
+          "action": "COUNTER [-8,-3]",
+          "ev": -0.5555555555555556,
+          "p_accept_buy": 0.1111111111111111,
+          "p_accept_sell": 0.2222222222222222,
+          "p_counter": 0.6666666666666666
+        },
+        {
+          "action": "COUNTER [-6,-3]",
+          "ev": -0.661070799284099,
+          "p_accept_buy": 0.05284626163686058,
+          "p_accept_sell": 0.12754415416845874,
+          "p_counter": 0.8196095841946807
+        },
+        {
+          "action": "COUNTER [-6,-4]",
+          "ev": -0.7139170609209595,
+          "p_accept_buy": 0.05284626163686058,
+          "p_accept_sell": 0.12754415416845874,
+          "p_counter": 0.8196095841946807
+        },
+        {
+          "action": "COUNTER [-8,-4]",
+          "ev": -1.2784383367787227,
+          "p_accept_buy": 0.05284626163686058,
+          "p_accept_sell": 0.12754415416845874,
+          "p_counter": 0.8196095841946807
+        },
+        {
+          "action": "COUNTER [-7,-4]",
+          "ev": -1.4059824909471814,
+          "p_accept_buy": 0.05284626163686058,
+          "p_accept_sell": 0.12754415416845874,
+          "p_counter": 0.8196095841946807
+        },
+        {
+          "action": "COUNTER [-7,-5]",
+          "ev": -1.458828752584042,
+          "p_accept_buy": 0.05284626163686058,
+          "p_accept_sell": 0.12754415416845874,
+          "p_counter": 0.8196095841946807
+        },
+        {
+          "action": "ACCEPT_SELL",
+          "ev": -2.0,
+          "p_accept_buy": 0.0,
+          "p_accept_sell": 1.0,
+          "p_counter": 0.0
+        },
+        {
+          "action": "COUNTER [-8,-5]",
+          "ev": -2.150894182610264,
+          "p_accept_buy": 0.05284626163686058,
+          "p_accept_sell": 0.12754415416845874,
+          "p_counter": 0.8196095841946807
+        },
+        {
+          "action": "COUNTER [-8,-6]",
+          "ev": -2.2037404442471242,
+          "p_accept_buy": 0.05284626163686058,
+          "p_accept_sell": 0.12754415416845874,
+          "p_counter": 0.8196095841946807
+        },
+        {
+          "action": "ACCEPT_BUY",
+          "ev": -4.0,
+          "p_accept_buy": 1.0,
+          "p_accept_sell": 0.0,
+          "p_counter": 0.0
+        }
+      ]
+    },
+    {
+      "seed": 1130100,
+      "round": 1,
+      "turn": 2,
+      "quote": [
+        -6,
+        3
+      ],
+      "observed_action": [
+        "COUNTER",
+        -5,
+        3
+      ],
+      "best_action": "COUNTER [-1,3]",
+      "best_ev": 0.9562967382105249,
+      "exact_value": -2.0,
+      "foresight_sum": 0,
+      "foresight_n": 0,
+      "ranking": [
+        {
+          "action": "COUNTER [-1,3]",
+          "ev": 0.9562967382105249,
+          "p_accept_buy": 0.05284626163686058,
+          "p_accept_sell": 0.12754415416845874,
+          "p_counter": 0.8196095841946807
+        },
+        {
+          "action": "COUNTER [-3,3]",
+          "ev": 0.3917754623527616,
+          "p_accept_buy": 0.05284626163686058,
+          "p_accept_sell": 0.12754415416845874,
+          "p_counter": 0.8196095841946807
+        },
+        {
+          "action": "COUNTER [-2,3]",
+          "ev": 0.2642313081843029,
+          "p_accept_buy": 0.05284626163686058,
+          "p_accept_sell": 0.12754415416845874,
+          "p_counter": 0.8196095841946807
+        },
+        {
+          "action": "COUNTER [-2,2]",
+          "ev": 0.2113850465474423,
+          "p_accept_buy": 0.05284626163686058,
+          "p_accept_sell": 0.12754415416845874,
+          "p_counter": 0.8196095841946807
+        },
+        {
+          "action": "COUNTER [-4,3]",
+          "ev": -0.3002899676734603,
+          "p_accept_buy": 0.05284626163686058,
+          "p_accept_sell": 0.12754415416845874,
+          "p_counter": 0.8196095841946807
+        },
+        {
+          "action": "COUNTER [-4,2]",
+          "ev": -0.35313622931032085,
+          "p_accept_buy": 0.05284626163686058,
+          "p_accept_sell": 0.12754415416845874,
+          "p_counter": 0.8196095841946807
+        },
+        {
+          "action": "COUNTER [-3,2]",
+          "ev": -0.4806803834787796,
+          "p_accept_buy": 0.05284626163686058,
+          "p_accept_sell": 0.12754415416845874,
+          "p_counter": 0.8196095841946807
+        },
+        {
+          "action": "COUNTER [-3,1]",
+          "ev": -0.5335266451156402,
+          "p_accept_buy": 0.05284626163686058,
+          "p_accept_sell": 0.12754415416845874,
+          "p_counter": 0.8196095841946807
+        },
+        {
+          "action": "COUNTER [-5,3]",
+          "ev": -0.84375,
+          "p_accept_buy": 0.015625,
+          "p_accept_sell": 0.015625,
+          "p_counter": 0.96875
+        },
+        {
+          "action": "COUNTER [-6,2]",
+          "ev": -0.9176575051680841,
+          "p_accept_buy": 0.05284626163686058,
+          "p_accept_sell": 0.12754415416845874,
+          "p_counter": 0.8196095841946807
+        },
+        {
+          "action": "COUNTER [-5,2]",
+          "ev": -1.0452016593365427,
+          "p_accept_buy": 0.05284626163686058,
+          "p_accept_sell": 0.12754415416845874,
+          "p_counter": 0.8196095841946807
+        },
+        {
+          "action": "COUNTER [-5,1]",
+          "ev": -1.0980479209734035,
+          "p_accept_buy": 0.05284626163686058,
+          "p_accept_sell": 0.12754415416845874,
+          "p_counter": 0.8196095841946807
+        },
+        {
+          "action": "COUNTER [-4,1]",
+          "ev": -1.225592075141862,
+          "p_accept_buy": 0.05284626163686058,
+          "p_accept_sell": 0.12754415416845874,
+          "p_counter": 0.8196095841946807
+        },
+        {
+          "action": "COUNTER [-4,0]",
+          "ev": -1.2784383367787227,
+          "p_accept_buy": 0.05284626163686058,
+          "p_accept_sell": 0.12754415416845874,
+          "p_counter": 0.8196095841946807
+        },
+        {
+          "action": "COUNTER [-6,1]",
+          "ev": -1.7901133509996252,
+          "p_accept_buy": 0.05284626163686058,
+          "p_accept_sell": 0.12754415416845874,
+          "p_counter": 0.8196095841946807
+        },
+        {
+          "action": "COUNTER [-6,0]",
+          "ev": -1.8429596126364856,
+          "p_accept_buy": 0.05284626163686058,
+          "p_accept_sell": 0.12754415416845874,
+          "p_counter": 0.8196095841946807
+        },
+        {
+          "action": "COUNTER [-5,0]",
+          "ev": -1.9705037668049443,
+          "p_accept_buy": 0.05284626163686058,
+          "p_accept_sell": 0.12754415416845874,
+          "p_counter": 0.8196095841946807
+        },
+        {
+          "action": "COUNTER [-5,-1]",
+          "ev": -2.023350028441805,
+          "p_accept_buy": 0.05284626163686058,
+          "p_accept_sell": 0.12754415416845874,
+          "p_counter": 0.8196095841946807
+        },
+        {
+          "action": "COUNTER [-6,-1]",
+          "ev": -2.7154154584680272,
+          "p_accept_buy": 0.05284626163686058,
+          "p_accept_sell": 0.12754415416845874,
+          "p_counter": 0.8196095841946807
+        },
+        {
+          "action": "COUNTER [-6,-2]",
+          "ev": -2.7682617201048876,
+          "p_accept_buy": 0.05284626163686058,
+          "p_accept_sell": 0.12754415416845874,
+          "p_counter": 0.8196095841946807
+        },
+        {
+          "action": "ACCEPT_SELL",
+          "ev": -4.0,
+          "p_accept_buy": 0.0,
+          "p_accept_sell": 1.0,
+          "p_counter": 0.0
+        },
+        {
+          "action": "ACCEPT_BUY",
+          "ev": -5.0,
+          "p_accept_buy": 1.0,
+          "p_accept_sell": 0.0,
+          "p_counter": 0.0
+        }
+      ]
+    },
+    {
+      "seed": 1130100,
+      "round": 1,
+      "turn": 4,
+      "quote": [
+        -4,
+        3
+      ],
+      "observed_action": "ACCEPT_SELL",
+      "best_action": "COUNTER [-1,3]",
+      "best_ev": 0.9562967382105249,
+      "exact_value": -2.0,
+      "foresight_sum": 0,
+      "foresight_n": 0,
+      "ranking": [
+        {
+          "action": "COUNTER [-1,3]",
+          "ev": 0.9562967382105249,
+          "p_accept_buy": 0.05284626163686058,
+          "p_accept_sell": 0.12754415416845874,
+          "p_counter": 0.8196095841946807
+        },
+        {
+          "action": "COUNTER [-2,3]",
+          "ev": 0.2642313081843029,
+          "p_accept_buy": 0.05284626163686058,
+          "p_accept_sell": 0.12754415416845874,
+          "p_counter": 0.8196095841946807
+        },
+        {
+          "action": "COUNTER [-2,2]",
+          "ev": 0.2113850465474423,
+          "p_accept_buy": 0.05284626163686058,
+          "p_accept_sell": 0.12754415416845874,
+          "p_counter": 0.8196095841946807
+        },
+        {
+          "action": "COUNTER [-3,3]",
+          "ev": 0.14285714285714285,
+          "p_accept_buy": 0.023809523809523808,
+          "p_accept_sell": 0.023809523809523808,
+          "p_counter": 0.9523809523809523
+        },
+        {
+          "action": "COUNTER [-4,2]",
+          "ev": -0.35313622931032085,
+          "p_accept_buy": 0.05284626163686058,
+          "p_accept_sell": 0.12754415416845874,
+          "p_counter": 0.8196095841946807
+        },
+        {
+          "action": "COUNTER [-3,2]",
+          "ev": -0.4806803834787796,
+          "p_accept_buy": 0.05284626163686058,
+          "p_accept_sell": 0.12754415416845874,
+          "p_counter": 0.8196095841946807
+        },
+        {
+          "action": "COUNTER [-3,1]",
+          "ev": -0.5335266451156402,
+          "p_accept_buy": 0.05284626163686058,
+          "p_accept_sell": 0.12754415416845874,
+          "p_counter": 0.8196095841946807
+        },
+        {
+          "action": "COUNTER [-4,1]",
+          "ev": -1.225592075141862,
+          "p_accept_buy": 0.05284626163686058,
+          "p_accept_sell": 0.12754415416845874,
+          "p_counter": 0.8196095841946807
+        },
+        {
+          "action": "COUNTER [-4,0]",
+          "ev": -1.2784383367787227,
+          "p_accept_buy": 0.05284626163686058,
+          "p_accept_sell": 0.12754415416845874,
+          "p_counter": 0.8196095841946807
+        },
+        {
+          "action": "ACCEPT_SELL",
+          "ev": -2.0,
+          "p_accept_buy": 0.0,
+          "p_accept_sell": 1.0,
+          "p_counter": 0.0
+        },
+        {
+          "action": "ACCEPT_BUY",
+          "ev": -5.0,
+          "p_accept_buy": 1.0,
+          "p_accept_sell": 0.0,
+          "p_counter": 0.0
+        }
+      ]
+    },
+    {
+      "seed": 1130100,
+      "round": 2,
+      "turn": 3,
+      "quote": [
+        -1,
+        2
+      ],
+      "observed_action": [
+        "COUNTER",
+        0,
+        2
+      ],
+      "best_action": "ACCEPT_SELL",
+      "best_ev": -1.0,
+      "exact_value": 0.0,
+      "foresight_sum": 0,
+      "foresight_n": 0,
+      "ranking": [
+        {
+          "action": "ACCEPT_SELL",
+          "ev": -1.0,
+          "p_accept_buy": 0.0,
+          "p_accept_sell": 1.0,
+          "p_counter": 0.0
+        },
+        {
+          "action": "ACCEPT_BUY",
+          "ev": -2.0,
+          "p_accept_buy": 1.0,
+          "p_accept_sell": 0.0,
+          "p_counter": 0.0
+        }
+      ]
+    }
+  ]
+}

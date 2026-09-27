@@ -1,0 +1,41 @@
+[
+  {
+    "name": "AdaptiveFinal_vs_Rational",
+    "deals": 200,
+    "total_pnl": 567.6700119050304,
+    "pnl_per_deal": 2.838350059525152,
+    "std_deal_pnl": 14.083047276754481,
+    "warnings": 0,
+    "violations": 0,
+    "clamps": 0,
+    "forfeited": false,
+    "avg_ms": 0.0036449836269793557,
+    "max_ms": 0.10120000115421135
+  },
+  {
+    "name": "AdaptiveFinal_vs_Adaptive",
+    "deals": 200,
+    "total_pnl": 185.55999999999995,
+    "pnl_per_deal": 0.9277999999999997,
+    "std_deal_pnl": 13.937491662740484,
+    "warnings": 0,
+    "violations": 0,
+    "clamps": 0,
+    "forfeited": false,
+    "avg_ms": 0.002492344493654102,
+    "max_ms": 0.046799999836366624
+  },
+  {
+    "name": "AdaptiveFinal_vs_NaiveEV",
+    "deals": 200,
+    "total_pnl": 585.6700119050302,
+    "pnl_per_deal": 2.9283500595251506,
+    "std_deal_pnl": 14.916065394706001,
+    "warnings": 0,
+    "violations": 0,
+    "clamps": 0,
+    "forfeited": false,
+    "avg_ms": 0.003473879918800072,
+    "max_ms": 0.04129999979340937
+  }
+]
