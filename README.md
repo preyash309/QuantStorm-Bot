@@ -129,8 +129,9 @@ or proof of tournament superiority. Original evidence is in
 All **14 test programs** passed, including 5 new runtime regression tests.
 They cover exact probability/EV, frozen configuration, deterministic zero-sum
 matches, loader startup, path handling, independent mechanics and trace parity,
-and small empirical-policy fixtures. CI defines Windows/Linux and Python
-3.11/3.14 runs; remote CI has not yet run. See [verification](docs/VERIFICATION.md).
+and small empirical-policy fixtures. The published GitHub Actions matrix for
+Windows/Linux and Python 3.11/3.14 completed successfully.
+See [verification](docs/VERIFICATION.md).
 
 ## Repository map
 

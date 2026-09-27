@@ -54,7 +54,9 @@ reports and the freshly reproduced baseline remain in Git.
 
 Full parameter sweeps, trajectory regeneration, model rebuilding, and all
 historical held-out policy reports were not rerun. Dataset split logic and
-algorithms were preserved. CI defines Linux/Windows Python 3.11/3.14 checks;
-those remote jobs are pending publication. The sandbox smoke check is limited
+algorithms were preserved. The GitHub Actions workflow covering Linux/Windows
+and Python 3.11/3.14 completed successfully on implementation commit
+`ec01dcb9d3ae808009bc88b231f2d6a829951748` (run `36316038083`).
+The sandbox smoke check is limited
 and does not establish resistance to arbitrary hostile Python programs.
 No explicit upstream license was found; no new license has been granted.
